@@ -1,0 +1,11 @@
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\bin\Debug\net8.0\SistemaVenta.BLL.deps.json
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\bin\Debug\net8.0\SistemaVenta.BLL.dll
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\bin\Debug\net8.0\SistemaVenta.BLL.pdb
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.AssemblyInfo.cs
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.dll
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\refint\SistemaVenta.BLL.dll
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\SistemaVenta.BLL.pdb
+D:\Programacion\BACKEND\C#\SolucionSistemaVentas\SistemaVenta.BLL\obj\Debug\net8.0\ref\SistemaVenta.BLL.dll

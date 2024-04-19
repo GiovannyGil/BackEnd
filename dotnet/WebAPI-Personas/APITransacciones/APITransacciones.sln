@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITransacciones", "APITransacciones\APITransacciones.csproj", "{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7B60C3C-F301-4709-914E-7A58F03565FD}
+	EndGlobalSection
+EndGlobal

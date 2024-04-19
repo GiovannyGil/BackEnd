@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\models\\concesionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\models\\concesionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|d:\\programacion\\learning\\learning\\backend\\c#\\webapi-personas\\apitransacciones\\apitransacciones\\migrations\\20240323002847_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE570E5-7D9F-4423-BA19-C3A2A881AEED}|APITransacciones\\APITransacciones.csproj|solutionrelative:apitransacciones\\migrations\\20240323002847_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransaccionsController.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Controllers\\TransaccionsController.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Controllers\\TransaccionsController.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Controllers\\TransaccionsController.cs",
+              "RelativeToolTip": "APITransacciones\\Controllers\\TransaccionsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:31:52.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240323002847_Initial.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Migrations\\20240323002847_Initial.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Migrations\\20240323002847_Initial.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Migrations\\20240323002847_Initial.cs",
+              "RelativeToolTip": "APITransacciones\\Migrations\\20240323002847_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:28:47.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\appsettings.json",
+              "RelativeDocumentMoniker": "APITransacciones\\appsettings.json",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\appsettings.json",
+              "RelativeToolTip": "APITransacciones\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-23T00:28:02.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Program.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Program.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Program.cs",
+              "RelativeToolTip": "APITransacciones\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:27:54.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Context\\AppDBContext.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "APITransacciones\\Context\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:27:03.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Models\\Transaccion.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Transaccion.cs",
+              "RelativeToolTip": "APITransacciones\\Models\\Transaccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:23:25.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Concesionario.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Concesionario.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Models\\Concesionario.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Concesionario.cs",
+              "RelativeToolTip": "APITransacciones\\Models\\Concesionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:23:04.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Models\\Vehiculo.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "APITransacciones\\Models\\Vehiculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:22:20.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "APITransacciones\\Models\\Cliente.cs",
+              "ToolTip": "D:\\Programacion\\Learning\\Learning\\BACKEND\\C#\\WebAPI-Personas\\APITransacciones\\APITransacciones\\Models\\Cliente.cs",
+              "RelativeToolTip": "APITransacciones\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T00:21:44.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{% extends 'ProyectoWebApp/base.html' %}
+{% comment %} llamar la base mediante herencia de plantilla {% endcomment %}
+
+{% load static %}
+{% comment %} cargar el contenido de static {% endcomment %}
+
+{% comment %} Inicio de contenido {% endcomment %}
+{% block content%}
+{% for post in posts %}
+
+<section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded"  src="{{post.imagen.url}}" alt="" style="width:35%">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-lower">{{post.titulo}}</span>
+            <span class="section-heading-upper">{{post.contenido}}</span>
+          </h2>
+         <div style="text-align:left; font-size: 0.8em">
+            Autor: <span class="section-heading-upper">{{post.autor}}</span>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{% endfor %}
+
+<section>
+    <div style="width:75%; margin: auto; text-align:center; color:white;">
+        Categorias:
+        {% for post in posts %}
+            {% for categoria in post.categorias.all %}
+                <a href="">{{categoria.nombre}} &nbsp;&nbsp;&nbsp;</a>
+                
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

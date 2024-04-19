@@ -1,0 +1,31 @@
+<!-- upload.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subir Imagen</title>
+    <!-- Enlaza los estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2>Subir una Imagen</h2>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="image">Seleccionar Imagen:</label>
+          <input
+            type="file"
+            class="form-control-file"
+            id="image"
+            name="image"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Predecir</button>
+      </form>
+    </div>
+  </body>
+</html>

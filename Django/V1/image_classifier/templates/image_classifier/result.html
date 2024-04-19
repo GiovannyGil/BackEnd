@@ -1,0 +1,27 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resultados de Predicción</title>
+    <!-- Enlaza los estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2>Resultados de Predicción</h2>
+      <p>Imagen subida:</p>
+      <img src="{{ uploaded_image }}" alt="Imagen subida" class="img-fluid" />
+      <h4>Clases predichas:</h4>
+      <ul>
+        {% for class_name, probability in predictions %}
+        <li>{{ class_name }} - {{ probability }}</li>
+        {% endfor %}
+      </ul>
+      <a href="{% url 'upload' %}" class="btn btn-primary">Subir otra imagen</a>
+    </div>
+  </body>
+</html>

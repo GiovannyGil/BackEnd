@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %} Lista de Libros {% endblock %}
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            <a href="{% url 'crear' %}" id="" role="button" class="btn btn-success">Agregar Nuevo Libro</a>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Libros</h4>
+
+
+            <div class="table-responsive">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Titulo</th>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for libro in libros %}
+                        <tr class="">
+                            <td scope="row">{{ libro.id }}</td>
+                            <td>{{ libro.titulo }}</td>
+                            <td>
+                                <img src="{{ libro.imagen.url }}" height="100">
+                                <!-- se debe ir a stting del proyecto e importar os y hacer las lineas para usar archivos y luego a urls de la app -->
+                            </td>
+                            <td>{{ libro.descripcion }}</td>
+                            <td><a name="" id="" class="btn btn-info" href="{% url 'editar' %}" role="button">Editar</a>
+                                <a name="" id="" class="btn btn-danger" href="#" role="button">Borrar</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+    </div>
+{% endblock %}

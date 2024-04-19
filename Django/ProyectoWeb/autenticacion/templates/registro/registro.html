@@ -1,0 +1,22 @@
+{% extends 'ProyectoWebApp/base.html' %}
+<!-- llamar la base mediante herencia de plantilla -->
+
+{% load static %}
+<!--cargar el contenido de static -->
+
+{% load crispy_forms_tags %}
+<!-- llamar o importar la libreria crispy  -->
+
+<!-- Inicio de contenido  -->
+{% block content %}
+
+<form action="" method="POST" style="color: white;">
+    {% csrf_token %}
+
+    <div style="width:75%; margin:auto;">
+    {{form}}
+    <button type="submit" value="Registrarse" class="btn btn-success">Registrarse</button>
+</div>
+</form>
+
+{% endblock %}

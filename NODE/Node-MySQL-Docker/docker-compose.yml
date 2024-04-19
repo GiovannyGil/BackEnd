@@ -1,0 +1,11 @@
+# especificar version de docker a usar
+version: '3.8'
+# especificar los servicios a usar
+services:
+  mysqldb: #servicio mysql -> base de datos
+   image: mysql # imagen que voy a usar
+   environment: # variables de entorno
+    - MYSQL_ROOT_PASSWORD=123456 # contraseña
+    - MYSQL_DATEBASE=pruebadb # nombre
+   ports: # puerto en el que va a correr el contenedor
+     - 3307:3306 # 3307 -> mi pc , 3306 docker (interno/externo)
