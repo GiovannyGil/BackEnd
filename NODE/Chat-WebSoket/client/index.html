@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+    <script type="module">
+        // llamar el cdn e inicializar el io()
+        import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
+        const socket = io();
+
+
+        // traer el formulario
+        const form = document.getElementById('form');
+        // traer el input, -> la información
+        const input = document.getElementById('input');
+        // traer el ul, -> donde se van a mostrar los mensajes
+        const messages = document.getElementById('messages');
+
+        // evento de escuchar el mensaje
+        socket.on('chat message', (msg) => {
+            // crear un elemento li
+            const item = document.createElement('li');
+            // agregar el mensaje al elemento li
+            item.textContent = msg;
+            // agregar el elemento li al ul
+            messages.appendChild(item);
+            // hacer scroll hacia abajo
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+
+        // evento submit del formulario (escuchar el evento)
+        form.addEventListener('submit', (e) => {
+            e.preventDefault(); // prevenir el comportamiento por defecto del formulario
+
+            // si el input tiene un valor
+            if (input.value){
+                // emitir el mensaje (valor) al servidor
+                socket.emit('chat message', input.value);
+                // limpiar el input
+                input.value = '';
+            }
+        })
+
+
+      </script>
+    <style>
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }
+
+        :root{
+            color-scheme: light dark;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: grid;
+            place-content: center;
+            height: 100vh;
+            padding: 36px 36px 100px 36px;
+            grid-template-rows: 1fr;
+        }
+
+        #chat{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 350px;
+            height: 100%;
+            position: relative;
+        }
+
+        #form{
+            bottom: 0;
+            display: flex;
+            height: 48px;
+            left: 0;
+            padding: 4px;
+            position: absolute;
+            right: 0;
+        }
+
+        #input{
+            border-radius: 9999px;
+            border: 1px solid #eee;
+            flex: 1;
+            margin: 4px;
+            padding: 0 8px;
+        }
+
+        input:focus{
+            outline: 0;
+        }
+
+        #form > button{
+            background-color: #09f;
+            border: 0;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            margin: 4px;
+        }
+
+        #form > button:hover{
+            background-color: #0cf;
+        }
+
+        #messages{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #messages > li{
+            padding: .5rem 1rem;
+        }
+
+        #messages > li:nth-child(odd){
+            background: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section id="chat">
+        <ul id="messages">
+
+        </ul>
+        <form id="form">
+            <input type="text" name="message" id="input" placeholder="Type a Message" autocomplete="off">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
